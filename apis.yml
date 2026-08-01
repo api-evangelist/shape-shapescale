@@ -1,8 +1,25 @@
 aid: shape-shapescale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shape-shapescale.png
 name: Shape Shapescale
-description: Shape Shapescale is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Shapescale is a consumer body-scanning company that builds ShapeScale, a home
+  3D body scanner and companion mobile app. The device slowly rotates around a
+  standing user, captures a photorealistic 3D model of the body, and measures
+  body composition, weight, and circumference metrics so users can track fitness
+  and body changes over time. Shapescale is a Y Combinator portfolio company. As
+  of this enrichment pass the company publishes a consumer product website but no
+  public developer program, API reference, or machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/shape-shapescale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Body Scanning
+- 3D Scanning
+- Fitness
+- Health
+- Consumer Hardware
+- Body Composition
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/shape-shapescale-domain-security.yml
+- type: Website
+  url: https://shapescale.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
